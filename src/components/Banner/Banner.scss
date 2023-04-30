@@ -1,0 +1,98 @@
+@import '../../styles/variable';
+@import "../../styles/global";
+
+.banner {
+  background: url('../../images/bg-banner.png');
+  .banner-make{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    gap: 50px;
+    @media (max-width: 541px) {
+      flex-direction: column;
+    }
+    .banner-overlay{
+      background: linear-gradient(0deg, #1E180C -15.03%, rgba(83, 79, 70, 0) 100%);
+      opacity: 0.6;
+      width: 100%;
+      position: absolute;
+      height: 100%;
+      z-index:1;
+    }
+    .banner-men {
+      position: relative;
+        img {
+          height: auto;
+          width: 100%;
+        }
+        a {
+          font-family: $Montserrat300;
+          font-size: 60px;
+          text-align: center;
+          color: #FFFFFF;
+          text-transform: uppercase;
+          display: block;
+          position: absolute;
+          top: 46%;
+          left: 25%;
+          z-index: 2;
+          @media (max-width: 900px) {
+            font-size: 40px;
+          }
+          &:after {
+            display: block;
+            position: absolute;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: #ffffff;
+            content: "";
+            transition: width 0.3s ease-out;
+          }
+          &:hover:after,
+          &:focus:after {
+            width: 100%;
+          }
+        }
+    }
+
+    .banner-woman {
+      position: relative;
+      img {
+        height: auto;
+        width: 100%;
+      }
+      a {
+        font-family: $Montserrat300;
+        font-size: 60px;
+        text-align: center;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        display: block;
+        position: absolute;
+        top: 46%;
+        left: 25%;
+        z-index: 2;
+        @media (max-width: 900px) {
+          font-size: 40px;
+        }
+        &:after {
+          display: block;
+          position: absolute;
+          left: 0;
+          width: 0;
+          height: 2px;
+          background-color: #ffffff;
+          content: "";
+          transition: width 0.3s ease-out;
+        }
+        &:hover:after,
+        &:focus:after {
+          width: 100%;
+        }
+      }
+    }
+
+  }
+
+  }

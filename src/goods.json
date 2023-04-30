@@ -1,0 +1,22 @@
+{
+  "goods": [
+    {
+      "id": "01",
+      "title": "coat",
+      "url": "images/goods/coat.png",
+      "info": "Пуховий жилет Kiton, джинсиJacob Cohen , футболка Fedeli, кросівкиValentino , бейсболка Kiton"
+    },
+    {
+      "id": "02",
+      "title": "costume",
+      "url": "images/goods/costume.png",
+      "info": "Спортивний костюм Artigiani, футболка Artigiani, кеди Santoni"
+    },
+    {
+      "id": "03",
+      "title": "vest",
+      "url": "images/goods/vest.png",
+      "info": "Парку Artigiani, джемпер Artigiani, джинси Jacob Cohen, челсі Santoni"
+    }
+  ]
+}

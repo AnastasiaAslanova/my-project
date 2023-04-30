@@ -1,0 +1,41 @@
+@import "global";
+$primaryColor: #E8E8F2;
+$secondaryColor: #333333;
+$secondaryTexColor: #969696;
+$btnColor: #190404;
+$brandColor: #6A6A6A;
+$bgHeader: #F5F5F5;
+$bgBrands: #F9F9F9;
+$bg: #F5F5F5;
+$bgFooter: #FFFFFF;
+$textColor: #414141;
+$lineColor: #D9D9D9;
+$danger: #E53030;
+$success: #ADFF2F;
+
+//fonts
+$Montserrat600: 'Montserrat600';
+$Montserrat500: 'Montserrat500';
+$MontserratBold: 'MontserratBold';
+$Montserrat: 'Montserrat';
+$Montserrat300: 'Montserrat300';
+:export {
+  primaryColor: $primaryColor;
+  secondaryColor: $secondaryColor;
+  secondaryTexColor: $secondaryTexColor;
+  btnColor: $btnColor;
+  brandColor: $brandColor;
+  bgHeader: $bgHeader;
+  bgBrands: $bgBrands;
+  bg: $bg;
+  bgFooter: $bgFooter;
+  textColor: $textColor;
+  lineColor: $lineColor;
+  danger: $danger;
+  success: $success;
+  Montserrat600: $Montserrat600;
+  Montserrat500: $Montserrat500;
+  MontserratBold: $MontserratBold;
+  Montserrat: $Montserrat;
+  Montserrat300: $Montserrat300;
+}

@@ -1,0 +1,40 @@
+{
+  "novelties": [
+    {
+      "id": "01",
+      "title": "slBag",
+      "url": "images/novelties/slBag.jpg",
+      "info": "Saint Laurent"
+    },
+    {
+      "id": "02",
+      "title": "boots",
+      "url": "images/novelties/boots.jpg",
+      "info": "BRUNELLO CUCINELLI"
+    },
+    {
+      "id": "03",
+      "title": "jacket",
+      "url": "images/novelties/jacket.jpg",
+      "info": "Brunello Cucinelli"
+    },
+    {
+      "id": "04",
+      "title": "slBag",
+      "url": "images/novelties/slBag.jpg",
+      "info": "Saint Laurent"
+    },
+    {
+      "id": "05",
+      "title": "boots",
+      "url": "images/novelties/boots.jpg",
+      "info": "BRUNELLO CUCINELLI"
+    },
+    {
+      "id": "06",
+      "title": "jacket",
+      "url": "images/novelties/jacket.jpg",
+      "info": "Brunello Cucinelli"
+    }
+  ]
+}

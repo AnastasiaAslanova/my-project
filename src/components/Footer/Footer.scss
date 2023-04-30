@@ -1,0 +1,173 @@
+@import '../../styles/variable';
+@import "../../styles/global";
+.footer {
+  border-top: 3px solid $danger;
+
+    .footer-wrapper {
+      height: 273px;
+      padding: 47px 25px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-areas:
+          "info list1 list2 location"
+          "info list1 list2 message";
+      @media (max-width:900px) {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+              "info info"
+              "list1 list2"
+              "location location"
+               "message  message";
+      }
+      .footer-info {
+        grid-area: info;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-right: 90px;
+        @media (max-width:900px) {
+          align-items: center;
+          gap: 16px;
+          padding-bottom: 16px;
+          padding-right: 0;
+        }
+        p{
+          font-size: 14px;
+          line-height: 120%;
+          font-family: $Montserrat;
+          color: $secondaryTexColor;
+          text-align: start;
+          @media (max-width:900px) {
+            text-align: center;
+          }
+        }
+      }
+      .footer-list1 {
+        grid-area: list1;
+        padding-right: 50px;
+        text-align: start;
+        @media (max-width:900px) {
+          padding-bottom: 20px;
+          padding-right: 0;
+        }
+        ul {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          align-items: flex-start;
+          @media (max-width:900px) {
+            align-items: center;
+          }
+          a {
+            color: #000;
+            text-decoration: none;
+          }
+        }
+
+      }
+      .footer-list2 {
+        grid-area:list2;
+        @media (max-width:900px) {
+          padding-bottom: 20px;
+        }
+
+        ul {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          align-items: flex-start;
+          @media (max-width:900px) {
+            align-items: center;
+          }
+          a {
+            color: #000;
+            text-decoration: none;
+          }
+        }
+      }
+      .footer-location {
+        grid-area:location;
+        ul {
+          @media (max-width:900px) {
+            display: flex;
+            align-items: center;
+            padding-bottom: 24px;
+            justify-content: space-around;
+          }
+        }
+
+        &__ua {
+          gap: 16px;
+          display: flex;
+          justify-content: space-between;
+          padding-bottom: 23px;
+          @media (max-width: 900px) {
+            padding-bottom: 0;
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+          }
+          &--info {
+            width: 277px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            font-family: $Montserrat;
+            @media (max-width: 900px) {
+              width: 100%;
+              display: flex;
+              align-items: center;
+            }
+            .footer-location__ua--title {
+              font-family: $Montserrat600;
+            }
+            .footer-location__ua--adress {
+              text-align: end;
+              white-space: nowrap;
+              @media (max-width: 900px) {
+                white-space: normal;
+              }
+            }
+          }
+        }
+        &__italy {
+          gap: 16px;
+          display: flex;
+          justify-content: space-between;
+          @media (max-width: 900px) {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+          }
+          &--info {
+            width: 277px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            font-family: $Montserrat;
+
+            @media (max-width: 900px) {
+              width: 100%;
+              display: flex;
+              align-items: center;
+            }
+            .footer-location__italy--title {
+              font-family: $Montserrat600;
+            }
+
+          }
+        }
+      }
+      .footer-message {
+        grid-area:message;
+        display: flex;
+        justify-content: flex-end;
+        gap: 20px;
+        @media (max-width: 900px) {
+          justify-content:center;
+        }
+      }
+    }
+
+}

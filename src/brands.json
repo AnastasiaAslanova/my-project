@@ -1,0 +1,34 @@
+{
+  "brands": [
+    {
+      "id": "01",
+      "title": "BrandBrunello",
+      "url": "images/brands/brand-brunello.png"
+    },
+    {
+      "id": "02",
+      "title": "BrandJacob",
+      "url": "images/brands/brand-jacob.png"
+    },
+    {
+      "id": "03",
+      "title": "BrandKiton",
+      "url": "images/brands/brand-kiton.png"
+    },
+    {
+      "id": "02",
+      "title": "BrandLoro",
+      "url": "images/brands/brand-loro.png"
+    },
+    {
+      "id": "02",
+      "title": "BrandSaint",
+      "url": "images/brands/brand-saint.png"
+    },
+    {
+      "id": "02",
+      "title": "BrandSantani",
+      "url": "images/brands/brand-santani.png"
+    }
+  ]
+}

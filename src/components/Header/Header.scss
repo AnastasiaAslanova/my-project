@@ -1,0 +1,26 @@
+@import '../../styles/variable';
+@import "../../styles/global";
+.header {
+  background-color: $bgHeader;
+    .header-wrapper {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 25px;
+      height: 78px;
+      align-items: center;
+      .header-icons {
+        display: flex;
+        gap: 70px;
+      @media (max-width:541px) {
+        gap:20px;
+      }
+      p {
+        color: $secondaryColor;
+        font-size: 14px;
+        line-height: 120%;
+        margin: 0;
+        font-family: $Montserrat500;
+      }
+      }
+    }
+}

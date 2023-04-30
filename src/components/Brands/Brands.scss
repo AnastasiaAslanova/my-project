@@ -1,0 +1,48 @@
+@import '../../styles/variable';
+.brands {
+  background-color: $bgBrands;
+  padding-top: 67px;
+  padding-bottom: 126px;
+  .top-brands {
+    font-family: $Montserrat300;
+    font-size: 50px;
+    line-height: 120%;
+    text-align: center;
+    color: $secondaryColor;
+    text-transform: uppercase;
+  }
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 67px 0;
+    gap: 25px;
+    @media (max-width:541px) {
+
+    }
+    li {
+      border-right: 1px solid $lineColor;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-right: 15px;
+      min-height: 139px;
+      &:last-child {
+        border-right: none;
+      }
+      @media (max-width:541px) {
+        border-right: none;
+      }
+      img {
+        max-width: 200px;
+        display: block;
+        @media (max-width:541px) {
+          max-width: 130px;
+        }
+      }
+
+    }
+
+  }
+}

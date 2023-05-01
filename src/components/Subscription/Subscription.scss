@@ -1,0 +1,116 @@
+@import '../../styles/variable';
+@import "../../styles/global";
+.subscription {
+  .container{
+    .subscription-container {
+      padding: 37px 100px;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 80%;
+      transform: translateY(-40%);
+      margin: 0 auto;
+      @media (min-width:1500px) {
+        transform: translateY(-30%);
+      }
+      @media (max-width: 1200px) {
+        transform: translateY(-20%);
+      }
+      @media (max-width: 900px) {
+        transform: translateY(-10%);
+        padding: 25px 75px;
+      }
+      @media (max-width:541px) {
+        flex-direction: column-reverse;
+        padding: 25px 47px;
+      }
+      .subscription-tel {
+        transform: translateY(-30%);
+        @media (max-width:900px) {
+          width: 40%;
+          transform: translateY(-73px);
+        }
+        @media (max-width: 541px) {
+          transform: translateY(10px);
+          width: 100%;
+        }
+      }
+      .subscription-form {
+        margin: 0 auto;
+        .subscription-title {
+          font-family: $Montserrat600;
+          font-size: 24px;
+          line-height: 120%;
+          text-transform: uppercase;
+          margin-bottom: 24px;
+          @media (max-width: 900px) {
+            font-size:20px;
+            margin-bottom: 18px;
+          }
+        }
+        form {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          label .error {
+            color: $danger;
+          }
+          .form-first-row {
+            display: flex;
+            gap: 45px;
+            @media (max-width:541px) {
+              flex-direction: column;
+              gap: 10px;
+              margin-bottom: 10px;
+            }
+          }
+          input {
+            margin-bottom: 10px;
+            height: 47px;
+            border: 1px solid $lineColor;
+            width: 100%;
+            padding: 0 10px;
+            font-family: $Montserrat;
+            font-size: 14px;
+            line-height: 120%;
+            color: $textColor;
+            @media (max-width: 900px) {
+              font-size: 10px;
+              height: 30px;
+              margin-bottom: 5px;
+            }
+          }
+          .telephone {
+            width: 50%;
+            @media (max-width: 541px) {
+              width: 100%;
+            }
+          }
+          .button {
+            margin: 7px auto;
+            padding: 6px;
+            width: 311px;
+            height: 47px;
+            background-color: #000000;
+            color: #ffffff;
+            font-family: $MontserratBold;
+            font-size: 13px;
+            line-height: 120%;
+            text-align: center;
+            text-transform: uppercase;
+            @media (max-width: 900px) {
+              height: 30px;
+              width: 280px;
+            }
+            @media (max-width:541px) {
+              width: 100%;
+            }
+          }
+        }
+
+      }
+
+    }
+  }
+}

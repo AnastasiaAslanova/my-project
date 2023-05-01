@@ -1,5 +1,6 @@
 import './InfoCollections.scss';
 import { NavLink } from 'react-router-dom';
+
 import goods from '../../goods.json';
 
 function InfoCollection() {

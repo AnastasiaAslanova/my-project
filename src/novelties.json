@@ -4,37 +4,73 @@
       "id": "01",
       "title": "slBag",
       "url": "images/novelties/slBag.jpg",
-      "info": "Saint Laurent"
+      "info": "Saint Laurent",
+      "discount": 50,
+      "price": 1210
     },
     {
       "id": "02",
       "title": "boots",
       "url": "images/novelties/boots.jpg",
-      "info": "BRUNELLO CUCINELLI"
+      "info": "BRUNELLO CUCINELLI",
+      "discount": 15,
+      "price": 1020
     },
     {
       "id": "03",
       "title": "jacket",
       "url": "images/novelties/jacket.jpg",
-      "info": "Brunello Cucinelli"
+      "info": "Brunello Cucinelli",
+      "discount": 23,
+      "price": 1200
     },
     {
       "id": "04",
       "title": "slBag",
-      "url": "images/novelties/slBag.jpg",
-      "info": "Saint Laurent"
+      "url": "images/novelties/Bag2.jpg",
+      "info": "Saint Laurent",
+      "discount": 45,
+      "price": 2000
     },
     {
       "id": "05",
       "title": "boots",
-      "url": "images/novelties/boots.jpg",
-      "info": "BRUNELLO CUCINELLI"
+      "url": "images/novelties/boots2.jpg",
+      "info": "BRUNELLO CUCINELLI",
+      "discount": 42,
+      "price": 1050
     },
     {
       "id": "06",
       "title": "jacket",
-      "url": "images/novelties/jacket.jpg",
-      "info": "Brunello Cucinelli"
+      "url": "images/novelties/jacket2.jpg",
+      "info": "Brunello Cucinelli",
+      "discount": 35,
+      "price": 1000
+    },
+    {
+      "id": "07",
+      "title": "slBag",
+      "url": "images/novelties/Bag3.jpg",
+      "info": "Saint Laurent",
+      "discount": 50,
+      "price": 2000
+    },
+    {
+      "id": "08",
+      "title": "boots",
+      "url": "images/novelties/boots3.jpg",
+      "info": "BRUNELLO CUCINELLI",
+      "discount": 33,
+      "price": 2100
+    },
+    {
+      "id": "08",
+      "title": "jacket",
+      "url": "images/novelties/jacket3.jpg",
+      "info": "Brunello Cucinelli",
+      "discount": 44,
+      "price": 1800
     }
   ]
 }

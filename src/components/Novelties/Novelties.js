@@ -20,7 +20,6 @@ function Novelties() {
                 <div className='novelties-description'>48 оновлень</div>
                 <div className='swiper-container'>
                     <Swiper
-                        // slidesPerView={4}
                         breakpoints={{
                             1500: {
                                 slidesPerView: 4,
@@ -57,7 +56,7 @@ function Novelties() {
 
                 </div>
 
-                <NavLink to={'collections'} className='novelties--show'>дивитись більше</NavLink>
+                <NavLink to={'collections'} className='novelties--show'>дивитись всі</NavLink>
                 <span className='novelties--link-description'></span>
             </div>
         </section>

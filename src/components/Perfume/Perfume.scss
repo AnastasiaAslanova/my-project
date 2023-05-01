@@ -4,6 +4,7 @@
 .perfume-make {
   display: flex;
   position: relative;
+  margin-bottom: 75px;
   @media (max-width: 541px) {
     flex-direction: column;
   }

@@ -2,7 +2,6 @@ import './CollectionBanner.scss';
 import {ReactComponent as Artigiani} from "../../images/svg/artigiani.svg";
 import Banner from "../../images/collektionBanner.jpg";
 import BannerMobile from "../../images/collectionBannerMobile.jpg";
-
 import {NavLink} from "react-router-dom";
 function CollectionBanner() {
 

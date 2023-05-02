@@ -8,6 +8,11 @@
       padding: 0 25px;
       height: 78px;
       align-items: center;
+      position: relative;
+      .button-burger {
+        border: none;
+        background-color: inherit;
+      }
       .header-icons {
         display: flex;
         gap: 70px;

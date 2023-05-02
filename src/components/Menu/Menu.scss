@@ -1,0 +1,58 @@
+@import '../../styles/variable';
+@import "../../styles/global";
+.menu {
+  transition: .3s all;
+  display: none;
+}
+  .menu-visible {
+    display: block;
+    z-index: 5;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-y: scroll;
+    padding: 52px;
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      justify-content: center;
+      li {
+        position: relative;
+        a {
+          position: absolute;
+          top: 26%;
+          left: 5%;
+          font-family: $Montserrat500;
+          font-size: 20px;
+          line-height: 24px;
+          text-align: start;
+          width: 50%;
+          color: #000000;
+          text-transform: uppercase;
+          &:hover {
+            color: $brandColor;
+          }
+        }
+      }
+    }
+  .button-close {
+    position: absolute;
+    top: 2%;
+    right: 3%;
+    border: none;
+    border-bottom: 1px solid $secondaryColor;
+    background-color: #ffffff;
+    font-family: $Montserrat500;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    color: $secondaryColor;
+    }
+  }
+
+

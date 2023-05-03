@@ -11,7 +11,7 @@ function Menu(props) {
                    menu?.menu.map((menu) => (
                        <li key={menu.id} className='info-collections__item'>
                            <img src={menu.url} alt={menu.title} className='menu-icon'/>
-                           <NavLink to='/good' onClick = {props.handlerClose} className='menu-link'>{menu.title}</NavLink>
+                           <NavLink to={menu.path} onClick = {props.handlerClose} className='menu-link'>{menu.title}</NavLink>
                        </li>
                    ))
                }

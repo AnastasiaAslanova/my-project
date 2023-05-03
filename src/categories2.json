@@ -2,23 +2,28 @@
   "category2": [
     {
       "id": "01",
-      "title": "Футболки та поло"
+      "title": "Футболки та поло",
+      "path": "tshirts"
     },
     {
-      "id": "01",
-      "title": "Сумки"
+      "id": "02",
+      "title": "Сумки",
+      "path": "bags"
     },
     {
-      "id": "01",
-      "title": "Ремені"
+      "id": "03",
+      "title": "спідня білизна",
+      "path": "underpants"
     },
     {
-      "id": "01",
-      "title": "Аксесуари"
+      "id": "04",
+      "title": "Аксесуари",
+      "path": "accessories"
     },
     {
-      "id": "01",
-      "title": "Бренди"
+      "id": "05",
+      "title": "Бренди",
+      "path": "allcollection"
     }
   ]
 }

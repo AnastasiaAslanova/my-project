@@ -3,87 +3,104 @@
     {
       "id": "1",
       "title": "вся колекція",
-      "url": "images/menu/menuAllCollection.jpg"
+      "url": "images/menu/menuAllCollection.jpg",
+      "path": "allcollection"
     },
     {
       "id": "2",
       "title": "новинки",
-      "url": "images/menu/menuNew.jpg"
+      "url": "images/menu/menuNew.jpg",
+      "path": "new"
     },
     {
       "id": "3",
       "title": "знижки",
-      "url": "images/menu/menuSale.jpg"
+      "url": "images/menu/menuSale.jpg",
+      "path": "sale"
     },
     {
       "id": "4",
       "title": "верхній одяг",
-      "url": "images/menu/menuJackets.jpg"
+      "url": "images/menu/menuJackets.jpg",
+      "path": "jackets"
     },
     {
       "id": "5",
       "title": "пуховики",
-      "url": "images/menu/menuDownJackets.jpg"
+      "url": "images/menu/menuDownJackets.jpg",
+      "path": "downjackets"
     },
     {
       "id": "6",
       "title": "жилетки",
-      "url": "images/menu/menuVest.jpg"
+      "url": "images/menu/menuVest.jpg",
+      "path": "vests"
     },
     {
       "id": "7",
       "title": "піджаки та костюми",
-      "url": "images/menu/menuCostume.jpg"
+      "url": "images/menu/menuCostume.jpg",
+      "path": "costume"
     },
     {
       "id": "8",
       "title": "спортивні костюми",
-      "url": "images/menu/menuSport.jpg"
+      "url": "images/menu/menuSport.jpg",
+      "path": "sport"
     },
     {
       "id": "9",
       "title": "светри, поло, ждемпери",
-      "url": "images/menu/menuSweaters.jpg"
+      "url": "images/menu/menuSweaters.jpg",
+      "path": "sweaters"
     },
     {
       "id": "10",
       "title": "футболки та поло",
-      "url": "images/menu/menuTshirts.jpg"
+      "url": "images/menu/menuTshirts.jpg",
+      "path": "tshirts"
     },
     {
       "id": "11",
       "title": "рубашки",
-      "url": "images/menu/menuShirt.jpg"
+      "url": "images/menu/menuShirt.jpg",
+      "path": "shirt"
     },
     {
       "id": "12",
       "title": "джинси та брюки",
-      "url": "images/menu/menuJeans.jpg"
+      "url": "images/menu/menuJeans.jpg",
+      "path": "jeans"
     },
     {
       "id": "13",
       "title": "взуття",
-      "url": "images/menu/menuShoes.jpg"
+      "url": "images/menu/menuShoes.jpg",
+      "path": "shoes"
     },
     {
       "id": "14",
       "title": "кеди та кросівки",
-      "url": "images/menu/menuSneakers.jpg"
+      "url": "images/menu/menuSneakers.jpg",
+      "path": "sneakers"
     },
     {
       "id": "15",
       "title": "сумки",
-      "url": "images/menu/menuBags.jpg"
+      "url": "images/menu/menuBags.jpg",
+      "path": "bags"
     },
     {
       "id": "16",
       "title": "аксессуари",
-      "url": "images/menu/menuAccessories.jpg"
+      "url": "images/menu/menuAccessories.jpg",
+      "path": "accessories"
     },
     {
       "id": "17",
       "title": "спідня білизна",
-      "url": "images/menu/menuUnderpants.jpg"
+      "url": "images/menu/menuUnderpants.jpg",
+      "path": "underpants"
     }
   ]
 }

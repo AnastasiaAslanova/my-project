@@ -33,7 +33,7 @@ function Footer() {
                             {
                                 categories1.category1.map((category) =>(
                                     <li key={category.id}>
-                                        <NavLink to='' className={({isActive}) => isActive ? "active" : null}>
+                                        <NavLink to={category.path} className={({isActive}) => isActive ? "active" : null}>
                                             {category.title}
                                         </NavLink>
                                     </li>
@@ -46,7 +46,7 @@ function Footer() {
                             {
                                 categories2.category2.map((category) =>(
                                     <li key={category.id}>
-                                        <NavLink to='' className={({isActive}) => isActive ? "active" : null}>
+                                        <NavLink to={category.path} className={({isActive}) => isActive ? "active" : null}>
                                             {category.title}
                                         </NavLink>
                                     </li>

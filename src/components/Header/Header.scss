@@ -9,9 +9,17 @@
       height: 78px;
       align-items: center;
       position: relative;
+      border-bottom: 1px solid $btnColor;
       .button-burger {
         border: none;
         background-color: inherit;
+        cursor: pointer;
+      }
+      .logo {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
       }
       .header-icons {
         display: flex;

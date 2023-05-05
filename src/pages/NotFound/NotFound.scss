@@ -1,0 +1,23 @@
+@import '../../styles/variable';
+@import "../../styles/global";
+.not-found {
+  h1 {
+    margin: 20px 20px 14px;
+    font-family: $Montserrat600;
+    color: $danger;
+  }
+  .not-found__img {
+    display: block;
+    margin: 0 auto;
+    width: 45%;
+    height: 45vh;
+  }
+  a {
+    font-family: $Montserrat;
+    color: $textColor;
+    font-size: 24px;
+    .not-found__arrow {
+      margin: 0 14px;
+    }
+  }
+}

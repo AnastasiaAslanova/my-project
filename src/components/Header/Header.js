@@ -19,7 +19,7 @@ function Header() {
                     <Menu handlerClose={() => setVisible(false)} className={`menu ${visible ? 'menu-visible' : ''}`} />
                     <NavLink
                         to='/'
-                        className={({ isActive }) => isActive ? "active" : null}>
+                        className='logo'>
                         <picture>
                             <source media="(max-width:541px)" srcSet={require('../../images/logo-mobile.png')}/>
                             <img src={require('../../images/logo.png')} alt='logo'/>

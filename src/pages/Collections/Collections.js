@@ -1,7 +1,8 @@
 import './Collections.scss';
 import collection from "../../collections.json";
 import React, { useState } from "react";
-
+import {NavLink} from 'react-router-dom';
+import {ReactComponent as ArrowRight} from "../../images/svg/arrow-right.svg";
 
 function Collections() {
 
@@ -29,10 +30,16 @@ function Collections() {
 
     return (
         <div className='collections'>
-            <div className='collection__title'>
+            <div className='collections__wrapper'>
+                <div className='collection__title'>
                     <p>колекція</p>
-            </div>
-            <div className='container'>
+                </div>
+                <div className='collections__pagination'>
+                    <NavLink to='/' className='collections__pagination--home' >Головна</NavLink>
+                    <ArrowRight/>
+                    <NavLink to='/collection' className='collections__pagination--collection'>Колекція</NavLink>
+                </div>
+
                 <form className='collections__sort'>
                     <p>Сортувати:</p>
 
@@ -46,7 +53,9 @@ function Collections() {
                         <option value="descending">За зменьшенням</option>
                     </select>
                 </form>
+            </div>
 
+                <div className='container'>
                 <ul className='collections__item'>
                     {(
                         results.map(collection => {

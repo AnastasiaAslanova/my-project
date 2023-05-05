@@ -2,46 +2,70 @@
 @import "../../styles/global";
 
 .collections {
-  .collection__title{
-    background-color: $bgBrands;
-    padding: 50px;
-    margin-bottom: 50px;
-    p {
-      font-family: $Montserrat300;
-      text-transform: uppercase;
-      font-size: 50px;
-      line-height: 120%;
-      text-align: center;
-      color: $secondaryColor;
-    }
-  }
-  .collections__sort {
-    position: absolute;
-    top: 21%;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    display: flex;
-    gap: 16px;
-    margin-top: 22px;
-    .collections__select {
-      border: none;
-      background-color: inherit;
-      margin: 0 5px;
-      border-bottom: 1px solid;
+  .collections__wrapper {
+    position: relative;
+    .collections__pagination{
+      position: absolute;
+      top: 19%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      gap: 20px;
+      font-family: $Montserrat500;
       font-size: 16px;
-      padding: 0 23px;
-      outline: none;
-      option {
-        border: none;
-        margin: 8px auto;
-        font-family: $Montserrat300;
-        text-transform: uppercase;
-        text-align: center;
-        background-color: $secondaryTexColor;
-        color: #fff;
-
+      line-height: 120%;
+      .collections__pagination--home {
+        color: $secondaryColor;
+      }
+      .collections__pagination--collection{
+        color: $secondaryTexColor;
       }
     }
+    .collection__title{
+      background-color: $bgBrands;
+      padding: 70px 0 40px;
+      margin-bottom: 50px;
+      p {
+        font-family: $Montserrat300;
+        text-transform: uppercase;
+        font-size: 50px;
+        line-height: 120%;
+        text-align: center;
+        color: $secondaryColor;
+      }
+    }
+    .collections__sort {
+      position: absolute;
+      top: 102%;
+      transform: translate(-50%, -50%);
+      left: 50%;
+      display: flex;
+      gap: 16px;
+      margin-top: 22px;
+      .collections__select {
+        border: none;
+        background-color: inherit;
+        margin: 0 5px;
+        border-bottom: 1px solid;
+        font-size: 16px;
+        padding: 0 23px;
+        outline: none;
+        @media (max-width: 900px) {
+          padding: 0;
+        }
+        option {
+          border: none;
+          margin: 8px auto;
+          font-family: $Montserrat300;
+          text-transform: uppercase;
+          text-align: center;
+          background-color: $secondaryTexColor;
+          color: #fff;
+
+        }
+      }
+  }
+
     p {
       font-family: $Montserrat300;
       text-transform: uppercase;
@@ -57,6 +81,7 @@
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    padding: 40px 0;
     li {
       max-width: 420px;
       flex: 1 1 auto;

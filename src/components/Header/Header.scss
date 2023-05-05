@@ -2,6 +2,7 @@
 @import "../../styles/global";
 .header {
   background-color: $bgHeader;
+  border-bottom: 1px solid $btnColor;
     .header-wrapper {
       display: flex;
       justify-content: space-between;
@@ -9,7 +10,6 @@
       height: 78px;
       align-items: center;
       position: relative;
-      border-bottom: 1px solid $btnColor;
       .button-burger {
         border: none;
         background-color: inherit;

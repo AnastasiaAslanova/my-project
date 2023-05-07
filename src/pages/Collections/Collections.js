@@ -44,7 +44,7 @@ function Collections() {
                     <p>Сортувати:</p>
 
                     <select className='collections__select' defaultValue={'info'} onChange={(e) => sortBy(e.target.value)}>
-                        <option value="info">По назві товару</option>
+                        <option value="info">В алфавітному порядку</option>
                         <option value="popularity">За рейтингом</option>
 
                     </select>

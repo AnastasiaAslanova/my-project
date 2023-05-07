@@ -5,63 +5,80 @@
       "title": "coat",
       "url": "images/goods/coat.png",
       "info": "Пуховий жилет Kiton, джинси Jacob Cohen, футболка Fedeli, кросівки Valentino, бейсболка Kiton",
-      "popularity": 2
+      "popularity": 2,
+      "sex": "male"
     },
     {
       "id": "02",
       "title": "costume-men",
       "url": "images/goods/costume.png",
       "info": "Спортивний костюм Artigiani, футболка Artigiani, кеди Santoni",
-      "popularity": 8
+      "popularity": 8,
+      "sex": "male"
     },
     {
       "id": "03",
       "title": "vest",
       "url": "images/goods/vest.png",
       "info": "Парку Artigiani, джемпер Artigiani, джинси Jacob Cohen, челсі Santoni",
-      "popularity": 5
+      "popularity": 5,
+      "sex": "male"
     },
     {
       "id": "04",
       "title": "sport",
       "url": "images/goods/girl.jpg",
       "info": "Костюм Artigiani, кросівки Santoni",
-      "popularity": 3
+      "popularity": 3,
+      "sex": "female"
     },
     {
       "id": "05",
       "title": "costume-women",
       "url": "images/goods/girl2.jpg",
       "info": "Костюм Kiton, майка Jacob Cohen, туфлі Valentino",
-      "popularity": 4
+      "popularity": 4,
+      "sex": "female"
     },
     {
       "id": "06",
       "title": "women",
       "url": "images/goods/girl3.jpg",
       "info": "Брюки Jacob Cohen, рубашка Fedeli, боссоніжки Valentino",
-      "popularity": 6
+      "popularity": 6,
+      "sex": "female"
     },
     {
       "id": "07",
       "title": "men",
       "url": "images/goods/men.jpg",
       "info": "Рубашка Artigiani,брюки Jacob Cohen, челсі Santoni",
-      "popularity": 7
+      "popularity": 7,
+      "sex": "male"
     },
     {
       "id": "08",
       "title": "men-otum",
       "url": "images/goods/man2.jpg",
       "info": "Пальто Artigiani, светр Artigiani, джинси Jacob Cohen, боти Santoni",
-      "popularity": 1
+      "popularity": 1,
+      "sex": "male"
     },
     {
       "id": "09",
       "title": "men-costume",
       "url": "images/goods/man3.jpg",
-      "info": "Костю Kiton, рубашка Jacob Cohen, туфлі Fedeli, ",
-      "popularity": 9
+      "info": "Костюм Kiton, рубашка Jacob Cohen, туфлі Fedeli",
+      "popularity": 9,
+      "sex": "male"
+    },
+    {
+      "id": "10",
+      "title": "men-vest",
+      "url": "images/goods/vest.jpg",
+      "info": "Жилет Kiton, джинси Jacob Cohen, туфлі Fedeli,светр  Santoni",
+      "popularity": 10,
+      "sex": "male"
     }
   ]
 }

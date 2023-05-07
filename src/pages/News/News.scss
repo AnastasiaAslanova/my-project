@@ -1,7 +1,7 @@
 @import '../../styles/variable';
 @import "../../styles/global";
 
-.sale__pagination {
+.news__pagination {
   position: absolute;
   top: 13%;
   left: 50%;
@@ -12,19 +12,19 @@
   font-size: 16px;
   line-height: 120%;
   text-transform: capitalize;
-  .sale__pagination--home {
+  .news__pagination--home {
     color: $secondaryColor;
   }
-  .sale__pagination--collection{
+  .news__pagination--collection{
     color: $secondaryTexColor;
   }
 }
-.sale-goods__title {
+.news-goods__title {
   font-family: $Montserrat300;
   text-transform: uppercase;
   font-size: 50px;
   line-height: 120%;
   text-align: center;
-  color: #d17aee;
+  color: #7aee87;
   padding: 70px 0 20px;
 }

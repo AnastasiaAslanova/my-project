@@ -2,74 +2,89 @@
   "novelties": [
     {
       "id": "01",
-      "title": "slBag",
+      "title": "bag-saint",
       "url": "images/novelties/slBag.jpg",
       "info": "Saint Laurent",
+      "brand": "images/brands/brand-brunello.png",
+      "sale": true,
       "discount": 50,
-      "price": 1210
+      "price": 12100
     },
     {
       "id": "02",
-      "title": "boots",
+      "title": "boots-brunello",
       "url": "images/novelties/boots.jpg",
       "info": "BRUNELLO CUCINELLI",
+      "brand": "images/brands/brand-jacob.png",
+      "sale": true,
       "discount": 15,
       "price": 1020
     },
     {
       "id": "03",
-      "title": "jacket",
+      "title": "jacket-brunello",
       "url": "images/novelties/jacket.jpg",
       "info": "Brunello Cucinelli",
+      "brand": "images/brands/brand-kiton.png",
+      "sale": true,
       "discount": 23,
       "price": 1200
     },
     {
       "id": "04",
-      "title": "slBag",
+      "title": "bag-yellow",
       "url": "images/novelties/Bag2.jpg",
-      "info": "Saint Laurent",
+      "info": "Laurent",
+      "brand": "images/brands/brand-loro.png",
+      "sale": true,
       "discount": 45,
       "price": 2000
     },
     {
       "id": "05",
-      "title": "boots",
+      "title": "boots-suv",
       "url": "images/novelties/boots2.jpg",
-      "info": "BRUNELLO CUCINELLI",
+      "info": "BOOTS SUV",
+      "brand": "images/brands/brand-saint.png",
+      "sale": true,
       "discount": 42,
       "price": 1050
     },
     {
       "id": "06",
-      "title": "jacket",
+      "title": "jacket-yellow",
       "url": "images/novelties/jacket2.jpg",
-      "info": "Brunello Cucinelli",
-      "discount": 35,
+      "info": "Jacket spring",
+      "brand": "images/brands/brand-santani.png",
+      "sale": false,
       "price": 1000
     },
     {
       "id": "07",
-      "title": "slBag",
+      "title": "bag-blue",
       "url": "images/novelties/Bag3.jpg",
-      "info": "Saint Laurent",
-      "discount": 50,
+      "info": "Saint Blue",
+      "brand": "images/brands/brand-jacob.png",
+      "sale": false,
       "price": 2000
     },
     {
       "id": "08",
-      "title": "boots",
+      "title": "seekers",
       "url": "images/novelties/boots3.jpg",
-      "info": "BRUNELLO CUCINELLI",
+      "info": "seekers white",
+      "brand": "images/brands/brand-kiton.png",
+      "sale": true,
       "discount": 33,
       "price": 2100
     },
     {
-      "id": "08",
-      "title": "jacket",
+      "id": "09",
+      "title": "jacket-bike",
       "url": "images/novelties/jacket3.jpg",
-      "info": "Brunello Cucinelli",
-      "discount": 44,
+      "info": "Jacket Bike",
+      "brand": "images/brands/brand-loro.png",
+      "sale": false,
       "price": 1800
     }
   ]

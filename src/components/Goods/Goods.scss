@@ -1,0 +1,74 @@
+@import '../../styles/variable';
+@import "../../styles/global";
+
+.goods__item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 40px 0;
+  li {
+    max-width: 420px;
+    flex: 1 1 auto;
+    margin-bottom: 37px;
+    .good__item--img {
+      max-width: 312px;
+      height: 312px;
+      margin-bottom: 12px;
+    }
+    .good__item--title {
+      font-family: $MontserratBold;
+      font-size: 16px;
+      line-height: 120%;
+      text-align: center;
+      color: #414141;
+      margin-bottom: 12px;
+    }
+    .good__item--price-not-sale {
+      font-family: $Montserrat600;
+      font-size: 16px;
+      line-height: 120%;
+      text-align: center;
+      color: $secondaryTexColor;
+      margin-bottom: 12px;
+    }
+    .good__item--price {
+      display: flex;
+      flex-direction: row;
+      gap: 16px;
+      justify-content: center;
+      margin-bottom: 12px;
+      .good__item--price-total {
+        font-family: $Montserrat600;
+        font-size: 16px;
+        line-height: 120%;
+        text-align: center;
+        text-decoration-line: line-through;
+        color: $secondaryTexColor;
+      }
+      .good__item--price-discount {
+        font-family: $MontserratBold;
+        font-size: 16px;
+        line-height: 120%;
+        text-align: center;
+        color: $danger;
+      }
+    }
+    .good__item--show {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      gap: 16px;
+      align-items: center;
+      p {
+        font-size: 16px;
+        line-height: 120%;
+        font-family: $Montserrat500;
+        text-align: center;
+        text-transform: uppercase;
+        color: $secondaryColor;
+      }
+
+    }
+  }
+}

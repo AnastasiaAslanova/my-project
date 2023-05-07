@@ -27,11 +27,11 @@ function Header() {
                     </NavLink>
                     <div className='header-icons'>
                         <NavLink to='/box' className='box' href=''>
-                            <BoxIcon/>
+                            <BoxIcon className='header-icons-icon'/>
                             <p>Корзина</p>
                         </NavLink>
                         <NavLink to='delivery' className='delivery' href=''>
-                            <Delivery/>
+                            <Delivery className='header-icons-icon'/>
                             <p>Доставка</p>
                         </NavLink>
                     </div>

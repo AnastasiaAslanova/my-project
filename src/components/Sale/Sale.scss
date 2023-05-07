@@ -1,63 +1,7 @@
 @import '../../styles/variable';
 @import '../../styles/global';
 
-.sale-banner {
-  position: relative;
-  margin-bottom: 65px;
-  .sale-banner-images {
-    display: flex;
-    img {
-      height: auto;
-      width: 100%;
-    }
-    .sale-banner-women {
-      @media (max-width: 541px) {
-        width: 0%;
-      }
-    }
-  }
-  .sale-banner-title {
-    font-family: $Montserrat;
-    font-size: 40px;
-    line-height: 100%;
-    text-align: center;
-    text-transform: uppercase;
-    color: $secondaryColor;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    display: flex;
-    width: 23%;
-    top: -1%;
-    height: 100%;
-    flex-direction: column;
-    margin: 0 auto;
-    background: rgb(233 231 231 / 73%);
-    justify-content: center;
-    border-radius: 50%;
-    box-shadow: 0 0 8px 8px white inset;
-    @media (max-width: 1200px) {
-      font-size: 32px;
-    }
-    @media (max-width: 900px) {
-      font-size: 24px;
-      width: 25%;
-    }
-    @media (max-width: 541px) {
-      width: 50%;
-    }
-    .vіdsotok {
-      font-size: 60px;
-      line-height: 110%;
-      @media (max-width: 1200px) {
-        font-size: 45px;
-      }
-      @media (max-width: 900px) {
-        font-size: 37px;
-      }
-    }
-  }
-}
+
 .sale-slider {
   .sale-slider-title {
     font-family: $Montserrat300;
@@ -74,7 +18,6 @@
     .swiper-pagination-bullet-active {
       background-color: #000;
     }
-
     .swiper-button-prev {
       background-image: url("../../images/svg/prev.svg");
       width: 58px;
@@ -82,12 +25,10 @@
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
-
       &:after {
         display: none;
       }
     }
-
     .swiper-button-next {
       background-image: url("../../images/svg/next.svg");
       width: 58px;

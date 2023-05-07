@@ -3,29 +3,44 @@
 .header {
   background-color: $bgHeader;
   border-bottom: 1px solid $btnColor;
-    .header-wrapper {
+
+  .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+    height: 78px;
+    align-items: center;
+    position: relative;
+
+    .button-burger {
+      border: none;
+      background-color: inherit;
+      cursor: pointer;
+    }
+
+    .logo {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .header-icons {
       display: flex;
-      justify-content: space-between;
-      padding: 0 25px;
-      height: 78px;
-      align-items: center;
-      position: relative;
-      .button-burger {
-        border: none;
-        background-color: inherit;
-        cursor: pointer;
+      gap: 70px;
+      @media (max-width: 900px) {
+        gap: 40px;
       }
-      .logo {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+      @media (max-width: 541px) {
+        gap: 14px;
       }
-      .header-icons {
-        display: flex;
-        gap: 70px;
-      @media (max-width:541px) {
-        gap:20px;
+      .header-icons-icon{
+        width:32px;
+        height:32px;
+        @media (max-width: 541px) {
+          width: 24px;
+          height: 24px;
+        }
       }
       p {
         color: $secondaryColor;
@@ -33,7 +48,11 @@
         line-height: 120%;
         margin: 0;
         font-family: $Montserrat500;
-      }
+        @media (max-width: 541px) {
+          line-height: 100%;
+          font-size: 10px;
+        }
       }
     }
+  }
 }

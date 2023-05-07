@@ -56,7 +56,7 @@ function Novelties() {
 
                 </div>
 
-                <NavLink to={'collections'} className='novelties--show'>дивитись всі</NavLink>
+                <NavLink to={'news'} className='novelties--show'>дивитись всі</NavLink>
                 <span className='novelties--link-description'></span>
             </div>
         </section>

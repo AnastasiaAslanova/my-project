@@ -6,7 +6,7 @@ import {ReactComponent as ArrowRight} from "../../images/svg/arrow-right.svg";
 import {ReactComponent as Ellipse} from "../../images/svg/ellipse.svg";
 import NotFound from "../NotFound/NotFound";
 
-function Product() {
+function Product(props) {
 
     const { id } = useParams();
     const [data, setData] = useState({});
@@ -71,10 +71,8 @@ function Product() {
 
                                 </div>
                             }
-                            <button className='product-add'>Додати у кошик</button>
+                            <button onClick={() => props.buyProduct(data)} className='product-add'>Додати у кошик</button>
                         </div>
-
-
                     </div>
                 }
                 {

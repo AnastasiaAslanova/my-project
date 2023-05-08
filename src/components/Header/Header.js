@@ -4,11 +4,12 @@ import {ReactComponent as Burger } from "../../images/svg/buger.svg";
 import {ReactComponent as Delivery} from '../../images/svg/delivery.svg';
 import {ReactComponent as BoxIcon} from "../../images/svg/box.svg";
 import Menu from "../Menu/Menu";
-import {useState} from "react";
+import {useState, useContext} from "react";
+import {Context} from "../App/App";
 
 function Header() {
     const [visible, setVisible] = useState(false);
-
+    const cart = useContext(Context);
     return (
         <header className='header'>
             <div className='container'>
@@ -28,7 +29,7 @@ function Header() {
                     <div className='header-icons'>
                         <NavLink to='/box' className='box' href=''>
                             <BoxIcon className='header-icons-icon'/>
-                            <p>Корзина</p>
+                            <p>Корзина({cart.length})</p>
                         </NavLink>
                         <NavLink to='delivery' className='delivery' href=''>
                             <Delivery className='header-icons-icon'/>

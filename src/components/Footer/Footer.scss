@@ -2,7 +2,6 @@
 @import "../../styles/global";
 .footer {
   border-top: 3px solid $danger;
-
     .footer-wrapper {
       height: 273px;
       padding: 47px 25px;
@@ -20,6 +19,7 @@
                "message  message";
       }
       .footer-info {
+        font-family: $Montserrat;
         grid-area: info;
         display: flex;
         flex-direction: column;

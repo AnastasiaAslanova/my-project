@@ -24,7 +24,7 @@ function Goods() {
                                     <p className='good__item--price-not-sale'>{good.price}грн</p>
 
                                 }
-                            <NavLink to={good.title} className='good__item--show'>
+                            <NavLink to={good.id} className='good__item--show'>
                                 <p>Дивитись докладніше</p>
                                 <ArrowRight/>
                             </NavLink>

@@ -7,12 +7,13 @@ import React from "react";
 function News() {
     return (
         <section className='news-goods'>
-            <div className='news-goods__title'>новинки</div>
+
             <div className='news__pagination'>
                 <NavLink to='/' className='news__pagination--home' >Головна</NavLink>
                 <ArrowRight/>
                 <NavLink to='/collection' className='news__pagination--collection'>Новинки</NavLink>
             </div>
+            <div className='news-goods__title'>новинки</div>
             <div className='news'>
                 <div className='container'>
                     <Goods/>

@@ -1,7 +1,7 @@
 import './Header.scss';
 import { NavLink } from 'react-router-dom';
 import {ReactComponent as Burger } from "../../images/svg/buger.svg";
-import {ReactComponent as Delivery} from '../../images/svg/delivery.svg'
+import {ReactComponent as Delivery} from '../../images/svg/delivery.svg';
 import {ReactComponent as BoxIcon} from "../../images/svg/box.svg";
 import Menu from "../Menu/Menu";
 import {useState} from "react";

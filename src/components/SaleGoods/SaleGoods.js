@@ -23,7 +23,7 @@ function SaleGoods() {
                                     <p className='sale-good__item--price-total'>{good.price}грн</p>
                                     <p className='sale-good__item--price-discount'>{Math.round(good.price -(good.price * good.discount/100))}грн</p>
                                 </div>
-                                <NavLink to={good.title} className='sale-good__item--show'>
+                                <NavLink to={good.id} className='sale-good__item--show'>
                                     <p>Дивитись докладніше</p>
                                     <ArrowRight/>
                                 </NavLink>

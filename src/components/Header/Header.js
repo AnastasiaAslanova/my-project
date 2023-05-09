@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import {ReactComponent as Burger } from "../../images/svg/buger.svg";
 import {ReactComponent as Delivery} from '../../images/svg/delivery.svg';
 import {ReactComponent as BoxIcon} from "../../images/svg/box.svg";
+import {ReactComponent as Ellipse} from "../../images/svg/ellipse.svg";
 import Menu from "../Menu/Menu";
 import {useState, useContext} from "react";
 import {Context} from "../App/App";
@@ -29,7 +30,11 @@ function Header() {
                     <div className='header-icons'>
                         <NavLink to='/box' className='box' href=''>
                             <BoxIcon className='header-icons-icon'/>
-                            <p>Корзина({cart.length})</p>
+                            <div className='header-icons-circle'>
+                                <Ellipse className = 'header-icons-circle-red'/>
+                                <p className='header-icons-circle-count'>{cart.length}</p>
+                            </div>
+                            <p>Корзина</p>
                         </NavLink>
                         <NavLink to='delivery' className='delivery' href=''>
                             <Delivery className='header-icons-icon'/>
